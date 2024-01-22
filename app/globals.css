@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  scroll-behavior: smooth;
+  max-width: 1740px;
+  margin: auto;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.red {
+  border: 1px solid red;
+}
+
+.hero-bg {
+  background-image: url("../app/assets/Coder.avif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.text-stroke {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #e7f9e1;
+}
